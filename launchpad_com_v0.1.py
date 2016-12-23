@@ -84,7 +84,7 @@ def main():
             s=msvcrt.getch()
             print "%s\twaiting for response..."%(s),
 
-
+#do you see this comment
     except Exception as e:
         print "Exception in main(): " + repr(e)
         raise e
